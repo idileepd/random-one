@@ -8,7 +8,7 @@ export const SearchIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   >
     <g
       fill="none"
-      stroke={props.stroke ?? "#000"}
+      stroke={props.color}
       strokeWidth={props.strokeWidth ?? "1.1"}
     >
       <circle cx="9" cy="9" r="7" />
