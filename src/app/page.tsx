@@ -6,14 +6,19 @@ import BookIcon from "@/icons/BookIcon";
 export default function Home() {
   return (
     <main className="grid grid-cols-[60fr_40fr] h-screen select-none">
-      <div className="bg-ecru-white-100">
-        <div className="grid grid-cols-[auto_1fr]">
-          <BookIcon width={"4rem"} />
-          <SearchBar
-            onChange={(val) => {
-              console.log(val);
-            }}
-          />
+      <div className="bg-ecru-white-100 p-3">
+        <div className="grid grid-cols-[auto_auto_1fr] gap-1 h-full">
+          <div className="grid grid-cols-[1fr] pt-3">
+            <BookIcon width={"4rem"} />
+          </div>
+          <div className="border-l-ecru-white-200 border-l-2 my-9"></div>
+          <div className="py-5 pl-5">
+            <SearchBar
+              onChange={(val) => {
+                console.log(val);
+              }}
+            />
+          </div>
         </div>
       </div>
       <div className="bg-ecru-white-50">Part 2</div>
