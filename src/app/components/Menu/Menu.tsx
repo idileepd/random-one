@@ -3,7 +3,7 @@ import { menuItems } from "@/config";
 
 export const Menu = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-28 gap-9">
+    <div className="flex flex-col items-center justify-center gap-9">
       {menuItems.map(({ icon: Icon, isSelected, name, path }, index) => {
         return (
           <div

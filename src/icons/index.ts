@@ -5,3 +5,4 @@ export * from "./NotesIcon";
 export * from "./BookmarkIcon";
 export * from "./HomeIcon";
 export * from "./Book2Icon";
+export * from "./MenuIcon";
